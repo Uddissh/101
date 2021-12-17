@@ -21,7 +21,7 @@ class TransferData:
                     dbx.files_upload(f.read(), dropbox_path, mode=WriteMode('overwrite'))
 
 def main():
-    access_token = 'sl.A9FeQ_N4kywqTRnWAvhsiAkh1cm6fC9isOALleah33vGsiXvhon0Rbwif02pRAz8oo0zwofC_5atz1pWT0ejzARX1Y9Lrybz8eYLadw680Zy8fRE6Tc_EBEyB--Z7brjDpkPsa0'
+    access_token = '9SDwqPA5o4EAAAAAAAAAAWeVPZlYGUUseiIBhqJwzi7b-zqNwO-63O0dOP55a-sS'
     transferData = TransferData(access_token)
 
     file_from = str(input("Enter the folder path to transfer : -"))
